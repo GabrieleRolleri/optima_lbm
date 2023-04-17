@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 #ifndef PLB_REGRESSION
     const T imSave = (T)0.2;
     const T vtkSave = (T)1.;
-    const T maxT = (T)10.1;
+    const T maxT = (T)1.1;
 #else
     const T maxT = (T)0.51;
 #endif
