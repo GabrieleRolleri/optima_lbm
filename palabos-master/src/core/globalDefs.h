@@ -263,6 +263,8 @@ public:
     void setVtkOutDir(std::string inputDir_);
     /// Specify directory for input files.
     void setInputDir(std::string inputDir);
+    /// Specify path for timing file
+    void setTimingPath(std::string timingPath);
 
     /// Get output directory for logfile.
     std::string getLogOutDir() const;
@@ -274,6 +276,8 @@ public:
     std::string getInputDir() const;
     /// Get generic output directory.
     std::string getOutputDir() const;
+    /// Get timing file path
+    std::string getTimingPath() const;
 
 private:
     Directories();
@@ -284,6 +288,7 @@ private:
     std::string vtkOutDir;
     std::string inputDir;
     std::string outputDir;
+    std::string timingPath;
     friend Directories &directories();
 };
 

@@ -40,6 +40,7 @@
 #include <algorithm>
 #include <cmath>
 #include <typeinfo>
+#include <chrono>
 
 #include "atomicBlock/blockLattice2D.h"
 #include "core/cell.h"
@@ -488,6 +489,7 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
                 //   of the streaming.
                 plint minY = outerY - dx;
                 plint maxY = minY + blockSize - 1;
+                auto time_before_collides = std::chrono::high_resolution_clock::now();
                 for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1);
                      ++innerY) {
                     // Collide the cell.
@@ -496,6 +498,10 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
                     //   neighboring cell, to perform the streaming step.
                     latticeTemplates<T, Descriptor>::swapAndStream2D(grid, innerX, innerY);
                 }
+                auto time_after_collides = std::chrono::high_resolution_clock::now();
+                auto ns_int = std::chrono::duration_cast<std::chrono::nanoseconds>(time_after_collides-time_before_collides).count();
+                plb_ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
+                ofile<<std::min(maxY, domain.y1)-std::max(minY, domain.y0)<<','<<ns_int<<std::endl;
             }
         }
     }

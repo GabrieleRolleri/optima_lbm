@@ -44,6 +44,7 @@
 #include <iomanip>
 #include <iostream>
 #include <vector>
+#include <chrono>
 
 #include "palabos2D.h"
 #include "palabos2D.hh"  // include full template code
@@ -103,6 +104,10 @@ int main(int argc, char *argv[])
     plbInit(&argc, &argv);
 
     global::directories().setOutputDir("./tmp/");
+    auto now = std::chrono::system_clock::now();
+    auto UTC = std::chrono::duration_cast<std::chrono::seconds>(now.time_since_epoch()).count();
+    
+    global::directories().setTimingPath("./logs/blockwiseBulkCollideAndStream_timings_inner_loop_" + std::to_string(UTC) + ".csv");
 
     IncomprFlowParam<T> parameters(
         (T)1e-2,  // uMax
@@ -115,7 +120,7 @@ int main(int argc, char *argv[])
 #ifndef PLB_REGRESSION
     const T imSave = (T)0.2;
     const T vtkSave = (T)1.;
-    const T maxT = (T)1.1;
+    const T maxT = (T)0.1;
 #else
     const T maxT = (T)0.51;
 #endif

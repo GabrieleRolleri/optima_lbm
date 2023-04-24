@@ -146,6 +146,11 @@ void Directories::setInputDir(std::string inputDir_)
     inputDir = inputDir_;
 }
 
+void Directories::setTimingPath(std::string timingPath_)
+{
+    timingPath = timingPath_;
+}
+
 std::string Directories::getLogOutDir() const
 {
     return logOutDir;
@@ -169,6 +174,11 @@ std::string Directories::getInputDir() const
 std::string Directories::getOutputDir() const
 {
     return outputDir;
+}
+
+std::string Directories::getTimingPath() const
+{
+    return timingPath;
 }
 
 }  // namespace global
