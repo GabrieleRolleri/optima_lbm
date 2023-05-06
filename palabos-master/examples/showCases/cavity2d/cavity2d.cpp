@@ -106,8 +106,16 @@ int main(int argc, char *argv[])
     global::directories().setOutputDir("./tmp/");
     auto now = std::chrono::system_clock::now();
     auto UTC = std::chrono::duration_cast<std::chrono::seconds>(now.time_since_epoch()).count();
+    
+    #ifdef PLB_MPI_PARALLEL
 
     std::string mpi_filename = "_rank_" + std::to_string(global::mpi().getRank()+1) + "_of_" + std::to_string(global::mpi().getSize()); 
+    
+    #else
+
+    std::string mpi_filename = "_singlethread";
+
+    #endif
 
     //global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_standard_" + std::to_string(UTC) + mpi_filename + ".csv");
     global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_buffered_" + std::to_string(UTC) + mpi_filename + ".csv");
