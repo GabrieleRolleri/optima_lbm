@@ -106,8 +106,15 @@ int main(int argc, char *argv[])
     global::directories().setOutputDir("./tmp/");
     auto now = std::chrono::system_clock::now();
     auto UTC = std::chrono::duration_cast<std::chrono::seconds>(now.time_since_epoch()).count();
-    
-    global::directories().setTimingPath("./logs/blockwiseBulkCollideAndStream_timings_inner_loop_" + std::to_string(UTC) + ".csv");
+
+    std::string mpi_filename = "_rank_" + std::to_string(global::mpi().getRank()+1) + "_of_" + std::to_string(global::mpi().getSize()); 
+
+    //global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_standard_" + std::to_string(UTC) + mpi_filename + ".csv");
+    global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_buffered_" + std::to_string(UTC) + mpi_filename + ".csv");
+
+    std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
+    ofile << "cells,load,collide,unload,stream" << std::endl;
+    //ofile << "cells,collideandstream"<< std::endl;
 
     IncomprFlowParam<T> parameters(
         (T)1e-2,  // uMax
