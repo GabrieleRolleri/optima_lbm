@@ -52,6 +52,10 @@
 #include "latticeBoltzmann/indexTemplates.h"
 #include "latticeBoltzmann/latticeTemplates.h"
 
+#include <MaxSLiCInterface.h>
+#include <pCollide.h>
+
+
 namespace plb {
 
 ////////////////////// Class BlockLattice2D /////////////////////////
@@ -495,11 +499,16 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
                 plint maxY = minY + blockSize - 1;
                 plint cells = (std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1);
                 if(cells>0) {
-
-                    plint stat_size_of_buffer = cells * sizeof(bool);
-                    plint size_of_buffer = cells * Descriptor<T>::numPop * sizeof(T);
-                    bool *stat_buffer = new bool[stat_size_of_buffer];
-                    T *buffer_dfe = new T[size_of_buffer];
+		    
+		    plint aligned_cells = cells + (16 - cells % 16);
+                    plint size_of_pop_buffer = aligned_cells * Descriptor<T>::numPop * sizeof(T);
+		    plint size_of_buffer = aligned_cells * sizeof(T);
+                   
+                    T *pop_in_buffer = new T[size_of_pop_buffer];
+                    T *pop_out_buffer = new T[size_of_pop_buffer];
+                    T *rhoBar_buffer = new T[size_of_buffer];
+                    T *uSqr_buffer = new T[size_of_buffer];
+                   
                     T omega = grid[innerX][std::max(minY, domain.y0)].dynamics->getOmega();
 
                     //load buffer
@@ -508,22 +517,24 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
                     for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1);
                          ++innerY) {
                         for (plint iPop = 0; iPop < Descriptor<T>::numPop; ++iPop) {
-                            buffer_dfe[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop] = grid[innerX][innerY][iPop];
+                            pop_in_buffer[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop] = grid[innerX][innerY][iPop];
                         }
-                        stat_buffer[innerY - std::max(minY, domain.y0)] = bool(grid[innerX][innerY].takesStat);
                     }
 
                     auto time_af_load = std::chrono::high_resolution_clock::now();
-
-                    simulatedDFECollide(buffer_dfe, stat_buffer, cells, omega);
-
+                    //std::cout<< "Start: "<<aligned_cells<<std::endl;
+                    pCollide(aligned_cells, omega, pop_in_buffer, size_of_pop_buffer, pop_out_buffer, size_of_pop_buffer, rhoBar_buffer, size_of_buffer, uSqr_buffer, size_of_buffer);
+		    //std::cout<< "End: "<<aligned_cells<<std::endl;
                     auto time_af_collide = std::chrono::high_resolution_clock::now();
 
                     //unload buffer
                     for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1); ++innerY) {
                         for (plint iPop = 0; iPop < Descriptor<T>::numPop; ++iPop) {
-                            grid[innerX][innerY][iPop] = buffer_dfe[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop];
-                        }
+                            grid[innerX][innerY][iPop] = pop_out_buffer[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop];
+			}
+			if(grid[innerX][innerY].takesStat)
+			    gatherStatistics(this->getInternalStatistics(), rhoBar_buffer[innerY - std::max(minY, domain.y0)], uSqr_buffer[innerY - std::max(minY, domain.y0)]);
+
                     }
 
                     auto time_af_unload = std::chrono::high_resolution_clock::now();
@@ -536,8 +547,11 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
 
                     auto time_af_stream = std::chrono::high_resolution_clock::now();
 
-                    delete[] buffer_dfe;
-                    delete[] stat_buffer;
+                    delete[] pop_in_buffer;
+                    delete[] pop_out_buffer;
+		    delete[] rhoBar_buffer;
+                    delete[] uSqr_buffer;
+
 
                     auto time_load_buffer = std::chrono::duration_cast<std::chrono::nanoseconds>(
                             time_af_load - time_bf_load).count();
@@ -558,114 +572,6 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
                 }
             }
         }
-    }
-}
-
-// ORIGINAL IMPLEMENTATION
-
-/*
-template <typename T, template <typename U> class Descriptor>
-void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
-{
-    // Make sure domain is contained within current lattice
-    PLB_PRECONDITION(contained(domain, this->getBoundingBox()));
-
-    // For cache efficiency, memory is traversed block-wise. The two outer loops enumerate
-    //   the blocks, whereas the two inner loops enumerate the cells inside each block.
-    const plint blockSize = cachePolicy().getBlockSize();
-    // Outer loops.
-    for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
-        for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
-            // Inner loops.
-            plint dx = 0;
-            for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
-                 ++innerX, ++dx) {
-                // Y-index is shifted in negative direction at each x-increment. to ensure
-                //   that only post-collision cells are accessed during the swap-operation
-                //   of the streaming.
-                plint minY = outerY - dx;
-                plint maxY = minY + blockSize - 1;
-                auto time_bf_collide = std::chrono::high_resolution_clock::now();
-                for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1);
-                     ++innerY) {
-                    // Collide the cell.
-                    grid[innerX][innerY].collide(this->getInternalStatistics());
-                    // Swap the populations on the cell, and then with post-collision
-                    //   neighboring cell, to perform the streaming step.
-                    latticeTemplates<T, Descriptor>::swapAndStream2D(grid, innerX, innerY);
-                }
-                auto time_af_collide = std::chrono::high_resolution_clock::now();
-                auto time_collide = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_collide-time_bf_collide).count();
-                std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
-                ofile<<std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1<<','<<time_collide<<std::endl;
-            }
-        }
-    }
-}
-*/
-
-
-template <typename T, template <typename U> class Descriptor>
-void BlockLattice2D<T, Descriptor>::simulatedDFECollide(T *buffer, bool *stat_buffer, plint cells, T omega)
-{
-    const int c
-    [9][2] =
-            {
-                    { 0, 0},
-                    {-1, 1}, {-1, 0}, {-1,-1}, { 0,-1},
-                    { 1,-1}, { 1, 0}, { 1, 1}, { 0, 1}
-            };
-
-    const T t[9] =
-            {
-                    (T)4/(T)9, (T)1/(T)36, (T)1/(T)9, (T)1/(T)36, (T)1/(T)9,
-                    (T)1/(T)36, (T)1/(T)9, (T)1/(T)36, (T)1/(T)9
-            };
-    const T invCs2 = T(3);
-    const plint d = 2;
-    const plint q = 9;
-
-    for (plint ncell = 0; ncell < cells; ++ncell) {
-        T* f = &buffer[ncell * q];
-        T rhoBar = f[0];
-
-        //begin get_rhoBar_j
-        for (plint iPop = 1; iPop < q; ++iPop) {
-            rhoBar += f[iPop];
-        }
-        T j[d];
-        for (int iD = 0; iD < d; ++iD) {
-            j[iD] = f[0] * c[0][iD];
-        }
-        for (plint iPop = 1; iPop < q; ++iPop) {
-            for (int iD = 0; iD < d; ++iD) {
-                j[iD] += f[iPop] * c[iPop][iD];
-            }
-        }
-        //end get_rhoBar_j
-
-        //begin bgk_ma2_collision
-        T invRho = T(1) / (rhoBar + T(1));
-        const T jSqr = j[0]*j[0]+j[1]*j[1];
-        for (plint iPop = 0; iPop < q; ++iPop) {
-            f[iPop] *= (T)1 - omega;
-            //begin bgk_ma2_equilibrium
-            T bgk_ma2_equilibrium;
-            T c_j = c[iPop][0] * j[0];
-            for (int iD = 1; iD < d; ++iD) {
-                c_j += c[iPop][iD] * j[iD];
-            }
-            bgk_ma2_equilibrium= t[iPop]
-                   * (rhoBar + invCs2 * c_j
-                      + invCs2 / (T)2 * invRho * (invCs2 * c_j * c_j - jSqr));
-
-            //end bgk_ma2_equilibrium
-            f[iPop] += omega * bgk_ma2_equilibrium;
-        }
-        T uSqr = jSqr * invRho * invRho;
-        if(stat_buffer[ncell])
-            gatherStatistics(this->getInternalStatistics(), rhoBar, uSqr);
-
     }
 }
 

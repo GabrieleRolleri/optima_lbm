@@ -131,11 +131,11 @@ int main(int argc, char *argv[])
         1.,       // lx
         1.        // ly
     );
-    const T logT = (T)0.1;
+    const T logT = (T)0.001;
 #ifndef PLB_REGRESSION
     const T imSave = (T)0.2;
     const T vtkSave = (T)1.;
-    const T maxT = (T)0.1;
+    const T maxT = (T)0.01;
 #else
     const T maxT = (T)0.51;
 #endif

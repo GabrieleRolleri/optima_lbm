@@ -192,8 +192,6 @@ private:
     /// Cache-efficient implementation of bulkCollideAndStream(domain)for
     ///   nearest-neighbor lattices.
     void blockwiseBulkCollideAndStream(Box2D domain);
-    /// Modified collide implementation simulating DFE operation
-    void simulatedDFECollide(T *buffer, bool *stat_buffer, plint cells, T omega);
 
 private:
     /// Helper method for memory allocation
