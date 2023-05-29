@@ -485,6 +485,7 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
     // For cache efficiency, memory is traversed block-wise. The two outer loops enumerate
     //   the blocks, whereas the two inner loops enumerate the cells inside each block.
     const plint blockSize = cachePolicy().getBlockSize();
+    plint cells = 0;
     // Outer loops.
     for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
         for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
@@ -492,86 +493,115 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
             plint dx = 0;
             for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
                  ++innerX, ++dx) {
-                // Y-index is shifted in negative direction at each x-increment. to ensure
-                //   that only post-collision cells are accessed during the swap-operation
-                //   of the streaming.
                 plint minY = outerY - dx;
                 plint maxY = minY + blockSize - 1;
-                plint cells = (std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1);
-                if(cells>0) {
-		    
-		    plint aligned_cells = cells + (16 - cells % 16);
-                    plint size_of_pop_buffer = aligned_cells * Descriptor<T>::numPop * sizeof(T);
-		    plint size_of_buffer = aligned_cells * sizeof(T);
-                   
-                    T *pop_in_buffer = new T[size_of_pop_buffer];
-                    T *pop_out_buffer = new T[size_of_pop_buffer];
-                    T *rhoBar_buffer = new T[size_of_buffer];
-                    T *uSqr_buffer = new T[size_of_buffer];
-                   
-                    T omega = grid[innerX][std::max(minY, domain.y0)].dynamics->getOmega();
+                cells += (std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1);
+            }
+        }
+    }
+    if(cells > 0){
+        plint aligned_cells = cells + (16 - cells % 16);
+        plint size_of_pop_buffer = aligned_cells * Descriptor<T>::numPop * sizeof(T);
+        plint size_of_buffer = aligned_cells * sizeof(T);
 
-                    //load buffer
-                    auto time_bf_load = std::chrono::high_resolution_clock::now();
+        T *pop_in_buffer = new T[size_of_pop_buffer];
+        T *pop_out_buffer = new T[size_of_pop_buffer];
+        T *rhoBar_buffer = new T[size_of_buffer];
+        T *uSqr_buffer = new T[size_of_buffer];
 
-                    for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1);
-                         ++innerY) {
-                        for (plint iPop = 0; iPop < Descriptor<T>::numPop; ++iPop) {
-                            pop_in_buffer[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop] = grid[innerX][innerY][iPop];
-                        }
+        auto time_bf_load = std::chrono::high_resolution_clock::now();
+
+	T omega = grid[domain.x0][domain.y0].dynamics->getOmega();
+
+        for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
+            for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
+                // Inner loops.
+                plint dx = 0;
+                for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
+                     ++innerX, ++dx) {
+                    plint minY = outerY - dx;
+                    plint maxY = minY + blockSize - 1;
+                    for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1); ++innerY) {
+                            for (plint iPop = 0; iPop < Descriptor<T>::numPop; ++iPop) {
+                                pop_in_buffer[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop] = grid[innerX][innerY][iPop];
+                            }
                     }
+                }
+            }
+        }
 
-                    auto time_af_load = std::chrono::high_resolution_clock::now();
-                    //std::cout<< "Start: "<<aligned_cells<<std::endl;
-                    pCollide(aligned_cells, omega, pop_in_buffer, size_of_pop_buffer, pop_out_buffer, size_of_pop_buffer, rhoBar_buffer, size_of_buffer, uSqr_buffer, size_of_buffer);
-		    //std::cout<< "End: "<<aligned_cells<<std::endl;
-                    auto time_af_collide = std::chrono::high_resolution_clock::now();
+        auto time_af_load = std::chrono::high_resolution_clock::now();
 
-                    //unload buffer
+        pCollide(aligned_cells, omega, pop_in_buffer, size_of_pop_buffer, pop_out_buffer, size_of_pop_buffer, rhoBar_buffer, size_of_buffer, uSqr_buffer, size_of_buffer);
+
+        auto time_af_collide = std::chrono::high_resolution_clock::now();
+
+        for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
+            for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
+                // Inner loops.
+                plint dx = 0;
+                for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
+                     ++innerX, ++dx) {
+                    plint minY = outerY - dx;
+                    plint maxY = minY + blockSize - 1;
                     for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1); ++innerY) {
                         for (plint iPop = 0; iPop < Descriptor<T>::numPop; ++iPop) {
                             grid[innerX][innerY][iPop] = pop_out_buffer[Descriptor<T>::numPop*(innerY - std::max(minY, domain.y0)) + iPop];
-			}
-			if(grid[innerX][innerY].takesStat)
-			    gatherStatistics(this->getInternalStatistics(), rhoBar_buffer[innerY - std::max(minY, domain.y0)], uSqr_buffer[innerY - std::max(minY, domain.y0)]);
-
+                        }
                     }
+                }
+            }
+        }
 
-                    auto time_af_unload = std::chrono::high_resolution_clock::now();
+        auto time_af_unload = std::chrono::high_resolution_clock::now();
 
+	for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
+            for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
+                // Inner loops.
+                plint dx = 0;
+                for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
+                     ++innerX, ++dx) {
+                    plint minY = outerY - dx;
+                    plint maxY = minY + blockSize - 1;
+                    for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1); ++innerY) {
+                        if(grid[innerX][innerY].takesStat)
+                            gatherStatistics(this->getInternalStatistics(), rhoBar_buffer[innerY - std::max(minY, domain.y0)], uSqr_buffer[innerY - std::max(minY, domain.y0)]);
+                    }
+                }
+            }
+        }
+
+	for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
+            for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
+                // Inner loops.
+                plint dx = 0;
+                for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
+                     ++innerX, ++dx) {
+                    plint minY = outerY - dx;
+                    plint maxY = minY + blockSize - 1;
                     for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1); ++innerY) {
                         // Swap the populations on the cell, and then with post-collision
                         //   neighboring cell, to perform the streaming step.
                         latticeTemplates<T, Descriptor>::swapAndStream2D(grid, innerX, innerY);
                     }
-
-                    auto time_af_stream = std::chrono::high_resolution_clock::now();
-
-                    delete[] pop_in_buffer;
-                    delete[] pop_out_buffer;
-		    delete[] rhoBar_buffer;
-                    delete[] uSqr_buffer;
-
-
-                    auto time_load_buffer = std::chrono::duration_cast<std::chrono::nanoseconds>(
-                            time_af_load - time_bf_load).count();
-                    auto time_collide = std::chrono::duration_cast<std::chrono::nanoseconds>(
-                            time_af_collide - time_af_load).count();
-                    auto time_unload_buffer = std::chrono::duration_cast<std::chrono::nanoseconds>(
-                            time_af_unload - time_af_collide).count();
-                    auto time_stream = std::chrono::duration_cast<std::chrono::nanoseconds>(
-                            time_af_stream - time_af_unload).count();
-
-
-
-                    std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
-                    ofile << cells << ',' << time_load_buffer << ',' << time_collide << ',' << time_unload_buffer << ',' << time_stream << std::endl;
-
-
-
                 }
             }
         }
+
+        auto time_af_stream = std::chrono::high_resolution_clock::now();
+
+        delete[] pop_in_buffer;
+        delete[] pop_out_buffer;
+        delete[] rhoBar_buffer;
+        delete[] uSqr_buffer;
+
+        auto time_load_buffer = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_load - time_bf_load).count();
+        auto time_collide = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_collide - time_af_load).count();
+        auto time_unload_buffer = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_unload - time_af_collide).count();
+        auto time_stream = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_stream - time_af_unload).count();
+
+        std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
+        ofile << cells << ',' << time_load_buffer << ',' << time_collide << ',' << time_unload_buffer << ',' << time_stream << std::endl;
     }
 }
 
