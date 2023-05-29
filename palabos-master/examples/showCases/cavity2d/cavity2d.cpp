@@ -101,6 +101,7 @@ void writeVTK(BlockLatticeT &lattice, IncomprFlowParam<T> const &parameters, pli
 
 int main(int argc, char *argv[])
 {
+    auto time_bf_main = std::chrono::high_resolution_clock::now();
     plbInit(&argc, &argv);
 
     global::directories().setOutputDir("./tmp/");
@@ -118,7 +119,7 @@ int main(int argc, char *argv[])
     #endif
 
     //global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_standard_" + std::to_string(UTC) + mpi_filename + ".csv");
-    global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_buffered_" + std::to_string(UTC) + mpi_filename + ".csv");
+    global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_dfe_" + std::to_string(UTC) + mpi_filename + ".csv");
 
     std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
     ofile << "cells,load,collide,unload,stream" << std::endl;
@@ -194,4 +195,13 @@ int main(int argc, char *argv[])
     }
 
     delete boundaryCondition;
+
+    auto time_af_main = std::chrono::high_resolution_clock::now();
+
+    auto main_total = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_main-time_bf_main).count();
+
+    std::ofstream total_ofile("tmp/total_exec_times.dat", std::ios_base::app);
+    total_ofile << global::directories().getTimingPath().c_str() << ',' << main_total  << std::endl;
+
 }
+
