@@ -118,12 +118,10 @@ int main(int argc, char *argv[])
 
     #endif
 
-    //global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_standard_" + std::to_string(UTC) + mpi_filename + ".csv");
-    global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_inner_loop_buffered_" + std::to_string(UTC) + mpi_filename + ".csv");
+    global::directories().setTimingPath(global::directories().getOutputDir() + "blockwiseBulkCollideAndStream_timings_cpu_buff_" + std::to_string(UTC) + mpi_filename + ".csv");
 
     std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
     ofile << "cells,load,collide,unload,stream" << std::endl;
-    //ofile << "cells,collideandstream"<< std::endl;
 
     IncomprFlowParam<T> parameters(
         (T)1e-2,  // uMax
@@ -132,11 +130,11 @@ int main(int argc, char *argv[])
         1.,       // lx
         1.        // ly
     );
-    const T logT = (T)0.1;
+    const T logT = (T)0.001;
 #ifndef PLB_REGRESSION
     const T imSave = (T)0.2;
     const T vtkSave = (T)1.;
-    const T maxT = (T)0.1;
+    const T maxT = (T)0.01;
 #else
     const T maxT = (T)0.51;
 #endif

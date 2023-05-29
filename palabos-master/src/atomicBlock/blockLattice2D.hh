@@ -561,49 +561,6 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
     }
 }
 
-// ORIGINAL IMPLEMENTATION
-
-/*
-template <typename T, template <typename U> class Descriptor>
-void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
-{
-    // Make sure domain is contained within current lattice
-    PLB_PRECONDITION(contained(domain, this->getBoundingBox()));
-
-    // For cache efficiency, memory is traversed block-wise. The two outer loops enumerate
-    //   the blocks, whereas the two inner loops enumerate the cells inside each block.
-    const plint blockSize = cachePolicy().getBlockSize();
-    // Outer loops.
-    for (plint outerX = domain.x0; outerX <= domain.x1; outerX += blockSize) {
-        for (plint outerY = domain.y0; outerY <= domain.y1 + blockSize - 1; outerY += blockSize) {
-            // Inner loops.
-            plint dx = 0;
-            for (plint innerX = outerX; innerX <= std::min(outerX + blockSize - 1, domain.x1);
-                 ++innerX, ++dx) {
-                // Y-index is shifted in negative direction at each x-increment. to ensure
-                //   that only post-collision cells are accessed during the swap-operation
-                //   of the streaming.
-                plint minY = outerY - dx;
-                plint maxY = minY + blockSize - 1;
-                auto time_bf_collide = std::chrono::high_resolution_clock::now();
-                for (plint innerY = std::max(minY, domain.y0); innerY <= std::min(maxY, domain.y1);
-                     ++innerY) {
-                    // Collide the cell.
-                    grid[innerX][innerY].collide(this->getInternalStatistics());
-                    // Swap the populations on the cell, and then with post-collision
-                    //   neighboring cell, to perform the streaming step.
-                    latticeTemplates<T, Descriptor>::swapAndStream2D(grid, innerX, innerY);
-                }
-                auto time_af_collide = std::chrono::high_resolution_clock::now();
-                auto time_collide = std::chrono::duration_cast<std::chrono::nanoseconds>(time_af_collide-time_bf_collide).count();
-                std::ofstream ofile(global::directories().getTimingPath().c_str(), std::ios_base::app);
-                ofile<<std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1<<','<<time_collide<<std::endl;
-            }
-        }
-    }
-}
-*/
-
 
 template <typename T, template <typename U> class Descriptor>
 void BlockLattice2D<T, Descriptor>::simulatedDFECollide(T *buffer, bool *stat_buffer, plint cells, T omega)
