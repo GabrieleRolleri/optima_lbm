@@ -72,7 +72,7 @@ project(palabosExample)
 enable_language(CXX)
 
 set(EXECUTABLE_NAME "cavity2d")
-set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "../")
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ".")
 find_program(CCACHE_PROGRAM ccache)
 if(CCACHE_PROGRAM)
     set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE "${CCACHE_PROGRAM}")

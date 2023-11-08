@@ -128,17 +128,17 @@ int main(int argc, char *argv[])
     IncomprFlowParam<T> parameters(
         (T)1e-2,  // uMax
         (T)100.,  // Re
-        128,      // N
-        1.,       // lx
-        1.        // ly
+        1024,      // N
+        .03,       // lx
+        .03        // ly
     );
-    const T logT = (T)0.001;
+    const T logT = (T)0.0001;
 #ifndef PLB_REGRESSION
     const T imSave = (T)0.2;
     const T vtkSave = (T)1.;
     const T maxT = (T)0.01;
 #else
-    const T maxT = (T)0.51;
+    const T maxT = (T)0.005;
 #endif
 
     writeLogFile(parameters, "2D cavity");
