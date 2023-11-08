@@ -495,7 +495,8 @@ void BlockLattice2D<T, Descriptor>::blockwiseBulkCollideAndStream(Box2D domain)
                  ++innerX, ++dx) {
                 plint minY = outerY - dx;
                 plint maxY = minY + blockSize - 1;
-                cells += (std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1);
+                if((std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1)>0)
+			cells += (std::min(maxY, domain.y1)-std::max(minY, domain.y0)+1);
             }
         }
     }
