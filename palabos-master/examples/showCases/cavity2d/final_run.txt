@@ -1,0 +1,2394 @@
+Mode: cpu 
+ Run: 0 
+ Threads: 1
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.450488267
+step 200; t=0.0002; av energy=4.889303719; av rho=3.971331773e+29
+Time spent during previous iteration: 0.526808403
+step 300; t=0.0003; av energy=8.206494223; av rho=-9.605319506e+68
+Time spent during previous iteration: 0.532110444
+step 400; t=0.0004; av energy=933.1556432; av rho=1.766328351e+110
+Time spent during previous iteration: 0.414363832
+step 500; t=0.0005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.482222756
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.512536971
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.50751621
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.430146808
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.562411081
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.512201427
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.405731989
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.376229589
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.54134481
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.409648993
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.483684325
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.5856937
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.516100074
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.443405139
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.448846829
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.435611783
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.45174399
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.45203599
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.475372082
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.520961512
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.467595069
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.532398674
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.518394586
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.479195472
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.432020653
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.524894946
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.558640152
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.408069379
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.451054088
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.530686292
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.444495062
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.482517486
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.568902687
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.545967016
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.445220159
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.457483585
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.472035399
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.472215102
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.44766613
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.496400964
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.428201188
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.418123052
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.52871348
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.511773199
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.484653207
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.438744
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.544999023
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.475699424
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.448135945
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.544013831
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.480831008
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.400069518
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.55975901
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.448725684
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.44893086
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.502080777
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.608572891
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.501489349
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.429942002
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.591311425
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.524749198
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.459817268
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.4059322
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.620523443
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.389537403
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.499413347
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.513411839
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.53727439
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.457278485
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.396192897
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.561192594
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.437060184
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.476473138
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.475828148
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.577590034
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.456703481
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.456995046
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.543987934
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.404570955
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.396875763
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.521768526
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.529331679
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.395373731
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.391667687
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.509717667
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.449453632
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.407233196
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.543030623
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.488614446
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.482411179
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.482368108
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.589640678
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.439137761
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.437782799
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.468370523
+Mode: cpu 
+ Run: 0 
+ Threads: 2
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.241852427
+step 200; t=0.0002; av energy=4.889303719; av rho=3.971331773e+29
+Time spent during previous iteration: 0.220882546
+step 300; t=0.0003; av energy=8.206494223; av rho=-9.605319506e+68
+Time spent during previous iteration: 0.18459396
+step 400; t=0.0004; av energy=933.1556432; av rho=1.766328351e+110
+Time spent during previous iteration: 0.174133162
+step 500; t=0.0005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193698352
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.180697688
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.182538828
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190548078
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.184011452
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193315773
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20754474
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.181492167
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.185783857
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204257525
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195799564
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200706068
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.231407605
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188686465
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.227043761
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188689952
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195571992
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.213192409
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208898011
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.187130179
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196228666
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192447448
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192477569
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189658388
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.181010589
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.187973467
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214838284
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.184589527
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.203470908
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188350733
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.180628116
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.225693923
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193338078
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200027034
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211657077
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195726943
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214033962
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20997408
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.179297163
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190712865
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200017117
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.18739619
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196581252
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.202414355
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206842325
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.186740887
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20067903
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.185260846
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.197838977
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.255872409
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.184294981
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211990792
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199714999
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195584751
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214869317
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190327236
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196602549
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207726657
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.21732413
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188014394
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212017162
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192236239
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.229782693
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199578198
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204918456
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211913182
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199128148
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200568764
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212762869
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.181203045
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.179628356
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211874493
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.185172905
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.216281286
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.228695653
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.17092319
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.185798059
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.19151006
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.198554005
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188452646
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.210746846
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.179973389
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196829294
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199263867
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.201936078
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.184169247
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.183814663
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.187166562
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.213505701
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.18176469
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196347427
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192039132
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189367869
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208086526
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.220706217
+Mode: cpu 
+ Run: 0 
+ Threads: 4
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.184160832
+step 200; t=0.0002; av energy=4.889303719; av rho=3.971331773e+29
+Time spent during previous iteration: 0.181731547
+step 300; t=0.0003; av energy=8.206494223; av rho=-9.605319506e+68
+Time spent during previous iteration: 0.197012958
+step 400; t=0.0004; av energy=933.1556432; av rho=1.766328351e+110
+Time spent during previous iteration: 0.194890076
+step 500; t=0.0005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.209476751
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.217811402
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.19885397
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192851879
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208573856
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.213075648
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195027374
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195539741
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207776112
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208249844
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204272709
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189225412
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191375212
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.198771416
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207902578
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188021272
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191920116
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.181377688
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200504769
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.198193478
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190040486
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.197194926
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.197333315
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196672067
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199520829
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.1979978
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207351565
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195270176
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190966931
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.184878051
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208564022
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214345134
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200343096
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191153572
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206246528
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.218567705
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.215354836
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200268018
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.1972724
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.18697199
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191349363
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190316255
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190893492
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.198452179
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.209990955
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190127921
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190711421
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207668359
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20581149
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.213737475
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190063032
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190725978
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192864374
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190159912
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.177366897
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.174581461
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191402298
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.215144411
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.185750527
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194025296
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.201590939
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.218569598
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20444803
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190776621
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189357291
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206768872
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214838245
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188957562
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189552556
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20959551
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.218072482
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191677832
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.19057381
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199283058
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.210160349
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193165954
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188530137
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.19488016
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.209175932
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20605474
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200418152
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192445539
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196062699
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211197808
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189065376
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200520546
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20247916
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212526577
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214427299
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.187761402
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193455327
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204905738
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193073507
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191478519
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192727027
+Mode: cpu 
+ Run: 0 
+ Threads: 8
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.210921114
+step 200; t=0.0002; av energy=4.889303719; av rho=3.971331773e+29
+Time spent during previous iteration: 0.199418696
+step 300; t=0.0003; av energy=8.206494223; av rho=-9.605319506e+68
+Time spent during previous iteration: 0.19766039
+step 400; t=0.0004; av energy=933.1556432; av rho=1.766328351e+110
+Time spent during previous iteration: 0.213327111
+step 500; t=0.0005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196863467
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193846998
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.209309154
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195430391
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.201762791
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.21052601
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200491666
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192446861
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.201618298
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200935264
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204398162
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194536726
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194226728
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.205492035
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.21036062
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.213771551
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208205957
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206520941
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195741842
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.203085852
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192035945
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191874181
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212733011
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.210097177
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192868952
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196195115
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199273899
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193730789
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.19261866
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189196808
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200933433
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193172498
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.217393652
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212417268
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212114123
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.202823417
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191147099
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190047443
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188332683
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204588128
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.197740934
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214876574
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211695218
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20833868
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20559452
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.2098512
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200766622
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199241508
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.187030674
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204322161
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206151883
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199258863
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193217128
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.188704699
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193785653
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.198837952
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20218861
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.192715816
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.216150927
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.211471139
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207658869
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.21071793
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.199890936
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194150259
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.202609968
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.201329492
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206132028
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.231863963
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.208511152
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.215079478
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.205323354
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190015096
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.189843372
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194812966
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.209830805
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212308298
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.214292834
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.206247083
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.207695663
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.195795895
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194510699
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.193430297
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.194970441
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.197430653
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.200657346
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.191697211
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196191632
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.212317204
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.218331714
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.196519414
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.204269169
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.202831601
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20908675
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.198619551
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.20557815
+Mode: cpu-buff 
+ Run: 0 
+ Threads: 1
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.350811268
+step 200; t=0.0002; av energy=95.74700443; av rho=-3.725690461e+26
+Time spent during previous iteration: 0.327658467
+step 300; t=0.0003; av energy=149.5242478; av rho=2.153983278e+70
+Time spent during previous iteration: 0.420951235
+step 400; t=0.0004; av energy=78.85888436; av rho=4.206042534e+107
+Time spent during previous iteration: 0.331820176
+step 500; t=0.0005; av energy=10.06534515; av rho=1.573919836e+145
+Time spent during previous iteration: 0.403461878
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.295036211
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.353108401
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.311167087
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.371010723
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.454520028
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.370540677
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.365213755
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.347086758
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.423697833
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.372497689
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.50707789
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.358408699
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.360119178
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.358155285
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.368370543
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.367500394
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.376531449
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.443727954
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.362923527
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.380616373
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.336804347
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.459970335
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.345948294
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.35617306
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.326521564
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.353887146
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.36568587
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.330478283
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.452444309
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.383590914
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.38926763
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.334906338
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.422800471
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.380268029
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.315415079
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.405276076
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.348815346
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.427488095
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.309262362
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.392613286
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.345806717
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.372704259
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.382300313
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.33789903
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.414242836
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.343204913
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.44412313
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.3265619
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.393772706
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.350185659
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.424604917
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.319853731
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.358634383
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.472245943
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.407294345
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.411881226
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.338407291
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.423682277
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.363556941
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.401221222
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.345231462
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.495994143
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.436680362
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.408501914
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.390820342
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.343984345
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.393165593
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.351105398
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.366125877
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.397204755
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.394522089
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.331698567
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.390244458
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.389460442
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.281175654
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.368424539
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.302403931
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.496094025
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.393372614
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.376869152
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.315109996
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.343939667
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.489592944
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.389148722
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.444880228
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.371303739
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.464786591
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.382865549
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.457513911
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.330969581
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.393200058
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.331518857
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.345114462
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.421799217
+Mode: cpu-buff 
+ Run: 0 
+ Threads: 2
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.15514127
+step 200; t=0.0002; av energy=95.16657078; av rho=-3.725690461e+26
+Time spent during previous iteration: 0.169924223
+step 300; t=0.0003; av energy=46.51297016; av rho=-1.334008683e+69
+Time spent during previous iteration: 0.201401357
+step 400; t=0.0004; av energy=2873.511782; av rho=-6.555966024e+111
+Time spent during previous iteration: 0.177493703
+step 500; t=0.0005; av energy=4016.606689; av rho=-2.163360008e+149
+Time spent during previous iteration: 0.170490824
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153015963
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.165740296
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158098738
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.150448501
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.142262522
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.162667992
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.162386069
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.151596696
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.148062935
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.160575261
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.143512443
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.147209554
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.162553246
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158898188
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.142173752
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.143854833
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.162285213
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.142687608
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.136794116
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157201254
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.164685016
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.150412324
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159496866
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.171315216
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.140793671
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.143774654
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.175794322
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156047026
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.149341137
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.148513979
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.172300374
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.150666143
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154767693
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.183754315
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.175863084
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.168315413
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153157693
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.152163232
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155389292
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155457597
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.147676876
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.162979261
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.190668525
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.19061237
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156009461
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15597611
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156106213
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.152439614
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.169151481
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.151398191
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.140073324
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157757303
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.143377303
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15056232
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155041187
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154571703
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.143341856
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153080748
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155923057
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155023334
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.147596428
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.150342368
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153324127
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.149375632
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.14826338
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153679525
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156242378
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154585153
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155638533
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.169508824
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.146470134
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159273137
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.1581196
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154461425
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.175877369
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153949394
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158738137
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.152867662
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.148276729
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153255736
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154380678
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.151247028
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.164002118
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159085973
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.16968017
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157551161
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.151921331
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.186973314
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.152137386
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154783305
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154393649
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.146877081
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.167430227
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157185289
+Mode: cpu-buff 
+ Run: 0 
+ Threads: 4
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.143762202
+step 200; t=0.0002; av energy=95.16657078; av rho=-3.725690461e+26
+Time spent during previous iteration: 0.139717882
+step 300; t=0.0003; av energy=54.31695511; av rho=-1.334008683e+69
+Time spent during previous iteration: 0.159778615
+step 400; t=0.0004; av energy=41452.81224; av rho=-6.555966024e+111
+Time spent during previous iteration: 0.162620293
+step 500; t=0.0005; av energy=66873.6841; av rho=-2.163355663e+149
+Time spent during previous iteration: 0.15853213
+step 600; t=0.0006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154182709
+step 700; t=0.0007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.171779118
+step 800; t=0.0008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.164890004
+step 900; t=0.0009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.1664615
+step 1000; t=0.001; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155957365
+step 1100; t=0.0011; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157625484
+step 1200; t=0.0012; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155399228
+step 1300; t=0.0013; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.167760285
+step 1400; t=0.0014; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154465139
+step 1500; t=0.0015; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.16890717
+step 1600; t=0.0016; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15627531
+step 1700; t=0.0017; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157340803
+step 1800; t=0.0018; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153467872
+step 1900; t=0.0019; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.161974261
+step 2000; t=0.002; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157784053
+step 2100; t=0.0021; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158280097
+step 2200; t=0.0022; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157670771
+step 2300; t=0.0023; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.160856229
+step 2400; t=0.0024; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.164144211
+step 2500; t=0.0025; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.161415681
+step 2600; t=0.0026; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156354192
+step 2700; t=0.0027; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.171701925
+step 2800; t=0.0028; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.164113955
+step 2900; t=0.0029; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158728794
+step 3000; t=0.003; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156964092
+step 3100; t=0.0031; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153466384
+step 3200; t=0.0032; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154963635
+step 3300; t=0.0033; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157063161
+step 3400; t=0.0034; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155145069
+step 3500; t=0.0035; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15546819
+step 3600; t=0.0036; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158305775
+step 3700; t=0.0037; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.165851213
+step 3800; t=0.0038; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157789969
+step 3900; t=0.0039; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158412581
+step 4000; t=0.004; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156195292
+step 4100; t=0.0041; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.169981669
+step 4200; t=0.0042; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158497514
+step 4300; t=0.0043; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.160540846
+step 4400; t=0.0044; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158964857
+step 4500; t=0.0045; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.148685666
+step 4600; t=0.0046; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158254984
+step 4700; t=0.0047; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155544805
+step 4800; t=0.0048; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.1613512
+step 4900; t=0.0049; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.161866248
+step 5000; t=0.005; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.167271173
+step 5100; t=0.0051; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.16648091
+step 5200; t=0.0052; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157741065
+step 5300; t=0.0053; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.1659697
+step 5400; t=0.0054; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.160640754
+step 5500; t=0.0055; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.170920044
+step 5600; t=0.0056; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.166444265
+step 5700; t=0.0057; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.168023716
+step 5800; t=0.0058; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.157900022
+step 5900; t=0.0059; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155809622
+step 6000; t=0.006; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155959255
+step 6100; t=0.0061; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.173592011
+step 6200; t=0.0062; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.16944719
+step 6300; t=0.0063; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.164175712
+step 6400; t=0.0064; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.161558652
+step 6500; t=0.0065; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.163401695
+step 6600; t=0.0066; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159150353
+step 6700; t=0.0067; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.170993829
+step 6800; t=0.0068; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.161780278
+step 6900; t=0.0069; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.163170501
+step 7000; t=0.007; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153628508
+step 7100; t=0.0071; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.168266487
+step 7200; t=0.0072; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159630562
+step 7300; t=0.0073; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155773341
+step 7400; t=0.0074; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.153869717
+step 7500; t=0.0075; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.169754218
+step 7600; t=0.0076; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154738656
+step 7700; t=0.0077; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.163090804
+step 7800; t=0.0078; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155816111
+step 7900; t=0.0079; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.175044173
+step 8000; t=0.008; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156035859
+step 8100; t=0.0081; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158197945
+step 8200; t=0.0082; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.154187989
+step 8300; t=0.0083; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.177317358
+step 8400; t=0.0084; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155608415
+step 8500; t=0.0085; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.158917696
+step 8600; t=0.0086; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.156523809
+step 8700; t=0.0087; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.172047841
+step 8800; t=0.0088; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155303328
+step 8900; t=0.0089; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.166420516
+step 9000; t=0.009; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.155070926
+step 9100; t=0.0091; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15495919
+step 9200; t=0.0092; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.160104591
+step 9300; t=0.0093; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.165093387
+step 9400; t=0.0094; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159576615
+step 9500; t=0.0095; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.17328766
+step 9600; t=0.0096; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15851826
+step 9700; t=0.0097; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.168616085
+step 9800; t=0.0098; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.15521343
+step 9900; t=0.0099; av energy=-nan; av rho=-nan
+Time spent during previous iteration: 0.159406424
+Mode: cpu-buff 
+ Run: 0 
+ Threads: 8
+step 0; t=0; av energy=1.650092162e-07; av rho=1
+Time spent during previous iteration: 0
+step 100; t=0.0001; av energy=0.0003311785421; av rho=0.9998250505
+Time spent during previous iteration: 0.138197735
+step 200; t=0.0002; av energy=1.983995477; av rho=-1.900762573e+27
+Time spent during previous iteration: 0.139917304
+step 300; t=0.0003; av energy=25.18832836; av rho=2.142685908e+69
+Time spent during previous iteration: 0.131323283
+step 400; t=0.0004; av energy=108.2039081; av rho=7.796461868e+108
+Time spent during previous iteration: 0.135407712
+step 500; t=0.0005; av energy=68.64639104; av rho=-1.970541993e+148
+Time spent during previous iteration: 0.136887558
+step 600; t=0.0006; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13767394
+step 700; t=0.0007; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139494788
+step 800; t=0.0008; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130853759
+step 900; t=0.0009; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.126510218
+step 1000; t=0.001; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130677341
+step 1100; t=0.0011; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.132996506
+step 1200; t=0.0012; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135245841
+step 1300; t=0.0013; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.124931999
+step 1400; t=0.0014; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.125227628
+step 1500; t=0.0015; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130256852
+step 1600; t=0.0016; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135751389
+step 1700; t=0.0017; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130078442
+step 1800; t=0.0018; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13110319
+step 1900; t=0.0019; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.136696636
+step 2000; t=0.002; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.145137448
+step 2100; t=0.0021; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.145378416
+step 2200; t=0.0022; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139050573
+step 2300; t=0.0023; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.136227268
+step 2400; t=0.0024; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130602386
+step 2500; t=0.0025; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.136813699
+step 2600; t=0.0026; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.136295046
+step 2700; t=0.0027; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.132748602
+step 2800; t=0.0028; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13413948
+step 2900; t=0.0029; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.127784289
+step 3000; t=0.003; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.138885764
+step 3100; t=0.0031; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130642446
+step 3200; t=0.0032; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139016634
+step 3300; t=0.0033; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.125493786
+step 3400; t=0.0034; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.1253481
+step 3500; t=0.0035; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.128569208
+step 3600; t=0.0036; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.134382066
+step 3700; t=0.0037; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139007266
+step 3800; t=0.0038; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.124152453
+step 3900; t=0.0039; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131123039
+step 4000; t=0.004; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.1367029
+step 4100; t=0.0041; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135624366
+step 4200; t=0.0042; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.132403674
+step 4300; t=0.0043; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13347074
+step 4400; t=0.0044; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135578417
+step 4500; t=0.0045; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.136571768
+step 4600; t=0.0046; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135658556
+step 4700; t=0.0047; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.134081847
+step 4800; t=0.0048; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.127629848
+step 4900; t=0.0049; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.127014173
+step 5000; t=0.005; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.124627241
+step 5100; t=0.0051; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.137375172
+step 5200; t=0.0052; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131730924
+step 5300; t=0.0053; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.136849597
+step 5400; t=0.0054; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131441892
+step 5500; t=0.0055; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135796914
+step 5600; t=0.0056; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.137061168
+step 5700; t=0.0057; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.126012928
+step 5800; t=0.0058; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.140575472
+step 5900; t=0.0059; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.129798609
+step 6000; t=0.006; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131998714
+step 6100; t=0.0061; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.143646428
+step 6200; t=0.0062; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135558528
+step 6300; t=0.0063; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.129941058
+step 6400; t=0.0064; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.123306657
+step 6500; t=0.0065; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.125503043
+step 6600; t=0.0066; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.128105093
+step 6700; t=0.0067; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139167788
+step 6800; t=0.0068; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135233286
+step 6900; t=0.0069; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130188804
+step 7000; t=0.007; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.132614549
+step 7100; t=0.0071; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131544718
+step 7200; t=0.0072; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.132653994
+step 7300; t=0.0073; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.126667091
+step 7400; t=0.0074; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.134367676
+step 7500; t=0.0075; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.130403633
+step 7600; t=0.0076; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.137441522
+step 7700; t=0.0077; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13877288
+step 7800; t=0.0078; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13452394
+step 7900; t=0.0079; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139072199
+step 8000; t=0.008; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.141157878
+step 8100; t=0.0081; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135109972
+step 8200; t=0.0082; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135847842
+step 8300; t=0.0083; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139832103
+step 8400; t=0.0084; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.134488952
+step 8500; t=0.0085; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.143160399
+step 8600; t=0.0086; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131371402
+step 8700; t=0.0087; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131815869
+step 8800; t=0.0088; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.13395348
+step 8900; t=0.0089; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.133465866
+step 9000; t=0.009; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.129813591
+step 9100; t=0.0091; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.129637255
+step 9200; t=0.0092; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.127082764
+step 9300; t=0.0093; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.128620734
+step 9400; t=0.0094; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.125894174
+step 9500; t=0.0095; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.12800267
+step 9600; t=0.0096; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.135300841
+step 9700; t=0.0097; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.131236626
+step 9800; t=0.0098; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.139597558
+step 9900; t=0.0099; av energy=nan; av rho=nan
+Time spent during previous iteration: 0.132010176
+Mode: dfe 
+ Run: 0 
+ Threads: 1
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18871] *** Process received signal ***
+step 0; t=0[jumaxbuild1:18871] Signal: Aborted (6)
+[jumaxbuild1:18871] Signal code:  (-6)
+[jumaxbuild1:18871] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fbf38e1f630]
+[jumaxbuild1:18871] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fbf37cee387]
+[jumaxbuild1:18871] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fbf37cefa78]
+[jumaxbuild1:18871] [ 3] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18871] [ 4] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18871] [ 5] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18871] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fbf38e1620b]
+[jumaxbuild1:18871] [ 7] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18871] [ 8] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18871] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18871] [10] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18871] [11] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18871] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fbf37cda555]
+[jumaxbuild1:18871] [13] build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18871] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe 
+ Run: 0 
+ Threads: 2
+step 0; t=0SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18899] *** Process received signal ***
+[jumaxbuild1:18899] Signal: Aborted (6)
+[jumaxbuild1:18899] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18900] *** Process received signal ***
+[jumaxbuild1:18900] Signal: Aborted (6)
+[jumaxbuild1:18900] Signal code:  (-6)
+[jumaxbuild1:18899] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f6dd4829630]
+[jumaxbuild1:18899] [ 1] [jumaxbuild1:18900] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f9bac8cc630]
+[jumaxbuild1:18900] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f6dd36f8387]
+[jumaxbuild1:18899] [ 2] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f9bab79b387]
+[jumaxbuild1:18900] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f6dd36f9a78]
+[jumaxbuild1:18899] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f9bab79ca78]
+[jumaxbuild1:18900] [ 3] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18899] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18900] [ 4] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18899] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18900] [ 5] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18899] [ 6] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18900] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f9bac8c320b]
+/usr/lib64/libpthread.so.0(+0x620b)[0x7f6dd482020b]
+[jumaxbuild1:18899] [ 7] [jumaxbuild1:18900] [ 7] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18899] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18900] [ 8] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18899] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18900] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18899] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18900] [10] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18899] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18900] [11] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18899] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18900] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6dd36e4555]
+[jumaxbuild1:18899] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f9bab787555]
+[jumaxbuild1:18900] [13] build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18899] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18900] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe 
+ Run: 0 
+ Threads: 4
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18949] *** Process received signal ***
+[jumaxbuild1:18949] Signal: Aborted (6)
+[jumaxbuild1:18949] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18950] *** Process received signal ***
+[jumaxbuild1:18950] Signal: Aborted (6)
+[jumaxbuild1:18950] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18951] *** Process received signal ***
+[jumaxbuild1:18951] Signal: Aborted (6)
+[jumaxbuild1:18951] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:18952] *** Process received signal ***
+[jumaxbuild1:18952] Signal: Aborted (6)
+[jumaxbuild1:18952] Signal code:  (-6)
+step 0; t=0[jumaxbuild1:18952] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f5a93481630]
+[jumaxbuild1:18952] [ 1] [jumaxbuild1:18949] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f77bf0d2630]
+[jumaxbuild1:18949] [ 1] [jumaxbuild1:18950] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f6a4da20630]
+[jumaxbuild1:18950] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f6a4c8ef387]
+[jumaxbuild1:18950] [ 2] [jumaxbuild1:18951] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f547f943630]
+[jumaxbuild1:18951] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f5a92350387]
+[jumaxbuild1:18952] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f5a92351a78]
+[jumaxbuild1:18952] [ 3] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f77bdfa1387]
+[jumaxbuild1:18949] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f77bdfa2a78]
+[jumaxbuild1:18949] [ 3] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f547e812387]
+[jumaxbuild1:18951] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f547e813a78]
+[jumaxbuild1:18951] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f6a4c8f0a78]
+[jumaxbuild1:18950] [ 3] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18949] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18952] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18951] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:18950] [ 4] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18949] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18951] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18950] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:18952] [ 5] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18949] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f77bf0c920b]
+[jumaxbuild1:18949] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18951] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f547f93a20b]
+[jumaxbuild1:18951] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18952] [ 6] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:18950] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f6a4da1720b]
+/usr/lib64/libpthread.so.0(+0x620b)[0x7f5a9347820b]
+[jumaxbuild1:18952] [ 7] [jumaxbuild1:18950] [ 7] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18949] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18951] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18950] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:18952] [ 8] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18949] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18951] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18952] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:18950] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18949] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18951] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18950] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:18952] [10] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18949] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18951] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18950] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:18952] [11] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18949] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18951] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f77bdf8d555]
+[jumaxbuild1:18949] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f547e7fe555]
+[jumaxbuild1:18951] [13] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18950] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:18952] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f5a9233c555]
+[jumaxbuild1:18952] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6a4c8db555]
+[jumaxbuild1:18950] [13] build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18951] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18949] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18950] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:18952] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe 
+ Run: 0 
+ Threads: 8
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19052] *** Process received signal ***
+[jumaxbuild1:19052] Signal: Aborted (6)
+[jumaxbuild1:19052] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19053] *** Process received signal ***
+[jumaxbuild1:19053] Signal: Aborted (6)
+[jumaxbuild1:19053] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19046] *** Process received signal ***
+[jumaxbuild1:19046] Signal: Aborted (6)
+[jumaxbuild1:19046] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19047] *** Process received signal ***
+[jumaxbuild1:19047] Signal: Aborted (6)
+[jumaxbuild1:19047] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19048] *** Process received signal ***
+[jumaxbuild1:19048] Signal: Aborted (6)
+[jumaxbuild1:19048] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19049] *** Process received signal ***
+[jumaxbuild1:19049] Signal: Aborted (6)
+[jumaxbuild1:19049] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19050] *** Process received signal ***
+[jumaxbuild1:19050] Signal: Aborted (6)
+[jumaxbuild1:19050] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19051] *** Process received signal ***
+[jumaxbuild1:19051] Signal: Aborted (6)
+[jumaxbuild1:19051] Signal code:  (-6)
+step 0; t=0[jumaxbuild1:19051] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f784b205630]
+[jumaxbuild1:19051] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f784a0d4387]
+[jumaxbuild1:19051] [ 2] [jumaxbuild1:19053] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fb1ce5ef630]
+[jumaxbuild1:19053] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fb1cd4be387]
+[jumaxbuild1:19053] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fb1cd4bfa78]
+[jumaxbuild1:19053] [ 3] [jumaxbuild1:19046] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f6a0d27b630]
+[jumaxbuild1:19046] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f6a0c14a387]
+[jumaxbuild1:19046] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f6a0c14ba78]
+[jumaxbuild1:19047] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f10519ac630]
+[jumaxbuild1:19047] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f105087b387]
+[jumaxbuild1:19047] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f105087ca78]
+[jumaxbuild1:19047] [ 3] [jumaxbuild1:19048] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fe82467f630]
+[jumaxbuild1:19048] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fe82354e387]
+[jumaxbuild1:19048] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fe82354fa78]
+[jumaxbuild1:19048] [ 3] [jumaxbuild1:19049] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fe05c873630]
+[jumaxbuild1:19049] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fe05b742387]
+[jumaxbuild1:19049] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fe05b743a78]
+[jumaxbuild1:19049] [ 3] [jumaxbuild1:19050] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f75666ef630]
+[jumaxbuild1:19050] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f75655be387]
+[jumaxbuild1:19050] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f75655bfa78]
+[jumaxbuild1:19050] [ 3] [jumaxbuild1:19052] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fc945f83630]
+[jumaxbuild1:19052] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fc944e52387]
+[jumaxbuild1:19052] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fc944e53a78]
+[jumaxbuild1:19052] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f784a0d5a78]
+[jumaxbuild1:19051] [ 3] [jumaxbuild1:19046] [ 3] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19052] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19053] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19051] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19047] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19048] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19049] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19050] [ 4] build/dfe/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f00f3]
+[jumaxbuild1:19046] [ 4] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19050] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19052] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19051] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19047] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19048] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19049] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19046] [ 5] build/dfe/cavity2d(max_load+0x93)[0x5c6033]
+[jumaxbuild1:19053] [ 5] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19048] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fe82467620b]
+build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19053] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fb1ce5e620b]
+[jumaxbuild1:19053] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19049] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fe05c86a20b]
+[jumaxbuild1:19049] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19050] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f75666e620b]
+[jumaxbuild1:19050] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19046] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f6a0d27220b]
+[jumaxbuild1:19046] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19052] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fc945f7a20b]
+[jumaxbuild1:19052] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19051] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f784b1fc20b]
+[jumaxbuild1:19051] [ 7] build/dfe/cavity2d[0x51959c]
+[jumaxbuild1:19047] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f10519a320b]
+[jumaxbuild1:19047] [ 7] [jumaxbuild1:19048] [ 7] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19051] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19047] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19048] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19049] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19050] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19046] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19052] [ 8] build/dfe/cavity2d(pCollide+0x5c)[0x51931c]
+[jumaxbuild1:19053] [ 8] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19052] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19049] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19050] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19046] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19047] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19051] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19053] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0x4e4)[0x4f37e4]
+[jumaxbuild1:19048] [ 9] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19052] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19049] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19050] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19046] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19047] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19048] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19051] [10] build/dfe/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4388]
+[jumaxbuild1:19053] [10] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19051] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19047] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19052] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19049] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19050] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19046] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19048] [11] build/dfe/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19053] [11] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19048] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19051] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19047] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19052] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19049] [12] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19050] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fe05b72e555]
+[jumaxbuild1:19049] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f75655aa555]
+[jumaxbuild1:19050] [13] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19046] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6a0c136555]
+[jumaxbuild1:19046] [13] build/dfe/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19053] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fb1cd4aa555]
+[jumaxbuild1:19053] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fe82353a555]
+[jumaxbuild1:19048] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f784a0c0555]
+[jumaxbuild1:19051] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f1050867555]
+[jumaxbuild1:19047] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fc944e3e555]
+[jumaxbuild1:19052] [13] build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19051] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19047] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19049] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19053] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19048] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19052] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19050] *** End of error message ***
+build/dfe/cavity2d[0x4d8f1f]
+[jumaxbuild1:19046] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe-full 
+ Run: 0 
+ Threads: 1
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19215] *** Process received signal ***
+step 0; t=0[jumaxbuild1:19215] Signal: Aborted (6)
+[jumaxbuild1:19215] Signal code:  (-6)
+[jumaxbuild1:19215] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fd736fb7630]
+[jumaxbuild1:19215] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fd735e86387]
+[jumaxbuild1:19215] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fd735e87a78]
+[jumaxbuild1:19215] [ 3] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19215] [ 4] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19215] [ 5] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19215] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fd736fae20b]
+[jumaxbuild1:19215] [ 7] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19215] [ 8] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19215] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19215] [10] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19215] [11] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19215] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fd735e72555]
+[jumaxbuild1:19215] [13] build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19215] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe-full 
+ Run: 0 
+ Threads: 2
+step 0; t=0SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19245] *** Process received signal ***
+[jumaxbuild1:19245] Signal: Aborted (6)
+[jumaxbuild1:19245] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19246] *** Process received signal ***
+[jumaxbuild1:19246] Signal: Aborted (6)
+[jumaxbuild1:19246] Signal code:  (-6)
+[jumaxbuild1:19245] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f5759e37630]
+[jumaxbuild1:19245] [ 1] [jumaxbuild1:19246] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f04c11a8630]
+[jumaxbuild1:19246] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f5758d06387]
+[jumaxbuild1:19245] [ 2] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f04c0077387]
+[jumaxbuild1:19246] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f5758d07a78]
+[jumaxbuild1:19245] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f04c0078a78]
+[jumaxbuild1:19246] [ 3] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19245] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19246] [ 4] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19245] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19246] [ 5] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19245] [ 6] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19246] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f04c119f20b]
+/usr/lib64/libpthread.so.0(+0x620b)[0x7f5759e2e20b]
+[jumaxbuild1:19245] [ 7] [jumaxbuild1:19246] [ 7] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19245] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19246] [ 8] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19245] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19246] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19245] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19246] [10] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19245] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19246] [11] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19245] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19246] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f5758cf2555]
+[jumaxbuild1:19245] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f04c0063555]
+[jumaxbuild1:19246] [13] build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19245] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19246] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe-full 
+ Run: 0 
+ Threads: 4
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19291] *** Process received signal ***
+[jumaxbuild1:19291] Signal: Aborted (6)
+[jumaxbuild1:19291] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19292] *** Process received signal ***
+[jumaxbuild1:19292] Signal: Aborted (6)
+[jumaxbuild1:19292] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19293] *** Process received signal ***
+[jumaxbuild1:19293] Signal: Aborted (6)
+[jumaxbuild1:19293] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19294] *** Process received signal ***
+[jumaxbuild1:19294] Signal: Aborted (6)
+[jumaxbuild1:19294] Signal code:  (-6)
+step 0; t=0[jumaxbuild1:19294] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fda5bf64630]
+[jumaxbuild1:19294] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fda5ae33387]
+[jumaxbuild1:19294] [ 2] [jumaxbuild1:19291] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f6fcea11630]
+[jumaxbuild1:19291] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f6fcd8e0387]
+[jumaxbuild1:19291] [ 2] [jumaxbuild1:19292] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f10b009f630]
+[jumaxbuild1:19292] [ 1] [jumaxbuild1:19293] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f97156d3630]
+[jumaxbuild1:19293] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f97145a2387]
+[jumaxbuild1:19293] [ 2] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f10aef6e387]
+[jumaxbuild1:19292] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fda5ae34a78]
+[jumaxbuild1:19294] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f6fcd8e1a78]
+[jumaxbuild1:19291] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f10aef6fa78]
+[jumaxbuild1:19292] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f97145a3a78]
+[jumaxbuild1:19293] [ 3] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19291] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19294] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19293] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19292] [ 4] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19294] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19291] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19293] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19292] [ 5] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19293] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f97156ca20b]
+[jumaxbuild1:19293] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19294] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fda5bf5b20b]
+[jumaxbuild1:19294] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19291] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f6fcea0820b]
+[jumaxbuild1:19291] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19292] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f10b009620b]
+[jumaxbuild1:19292] [ 7] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19291] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19293] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19294] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19292] [ 8] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19294] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19291] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19293] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19292] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19294] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19291] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19293] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19292] [10] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19291] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19293] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19292] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19294] [11] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19293] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19291] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19294] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19292] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6fcd8cc555]
+[jumaxbuild1:19291] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f971458e555]
+[jumaxbuild1:19293] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fda5ae1f555]
+[jumaxbuild1:19294] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f10aef5a555]
+[jumaxbuild1:19292] [13] build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19291] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19294] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19292] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19293] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+Mode: dfe-full 
+ Run: 0 
+ Threads: 8
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19383] *** Process received signal ***
+[jumaxbuild1:19383] Signal: Aborted (6)
+[jumaxbuild1:19383] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19384] *** Process received signal ***
+[jumaxbuild1:19384] Signal: Aborted (6)
+[jumaxbuild1:19384] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19385] *** Process received signal ***
+[jumaxbuild1:19385] Signal: Aborted (6)
+[jumaxbuild1:19385] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19386] *** Process received signal ***
+[jumaxbuild1:19386] Signal: Aborted (6)
+[jumaxbuild1:19386] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19387] *** Process received signal ***
+[jumaxbuild1:19387] Signal: Aborted (6)
+[jumaxbuild1:19387] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19380] *** Process received signal ***
+[jumaxbuild1:19380] Signal: Aborted (6)
+[jumaxbuild1:19380] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19381] *** Process received signal ***
+[jumaxbuild1:19381] Signal: Aborted (6)
+[jumaxbuild1:19381] Signal code:  (-6)
+SLiC Error #506 @ topology_internal.c:1967 - One or more of the maxfiles loaded correspond to a hardware run but a simulation libmaxeleros.so library has been preloaded
+SLiC Error #506 @ singlet_internal.c:157 - Unable to initialise topology pool
+SLiC Error #526 @ singlet_internal.c:269 - Unable to allocate engine
+SLiC Error #518 @ engine.c:26 - Error reported from function "max_load".
+
+[jumaxbuild1:19382] *** Process received signal ***
+[jumaxbuild1:19382] Signal: Aborted (6)
+[jumaxbuild1:19382] Signal code:  (-6)
+step 0; t=0[jumaxbuild1:19383] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fea713b0630]
+[jumaxbuild1:19383] [ 1] [jumaxbuild1:19384] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f0dab7e2630]
+[jumaxbuild1:19384] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f0daa6b1387]
+[jumaxbuild1:19384] [ 2] [jumaxbuild1:19385] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fcc2220b630]
+[jumaxbuild1:19385] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fcc210da387]
+[jumaxbuild1:19385] [ 2] [jumaxbuild1:19386] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fc536f44630]
+[jumaxbuild1:19386] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fc535e13387]
+[jumaxbuild1:19386] [ 2] [jumaxbuild1:19382] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f3bb6e57630]
+[jumaxbuild1:19382] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f3bb5d26387]
+[jumaxbuild1:19382] [ 2] [jumaxbuild1:19387] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fba59ef1630]
+[jumaxbuild1:19387] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fba58dc0387]
+[jumaxbuild1:19387] [ 2] [jumaxbuild1:19380] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7fb15c3df630]
+[jumaxbuild1:19380] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fb15b2ae387]
+[jumaxbuild1:19380] [ 2] [jumaxbuild1:19381] [ 0] /usr/lib64/libpthread.so.0(+0xf630)[0x7f88878b1630]
+[jumaxbuild1:19381] [ 1] /usr/lib64/libc.so.6(gsignal+0x37)[0x7f8886780387]
+[jumaxbuild1:19381] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7f8886781a78]
+[jumaxbuild1:19381] /usr/lib64/libc.so.6(gsignal+0x37)[0x7fea7027f387]
+[jumaxbuild1:19383] [ 2] /usr/lib64/libc.so.6(abort+0x148)[0x7fea70280a78]
+[jumaxbuild1:19383] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f0daa6b2a78]
+[jumaxbuild1:19384] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7fcc210dba78]
+[jumaxbuild1:19385] [ 3] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7fc535e14a78]
+[jumaxbuild1:19386] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7f3bb5d27a78]
+[jumaxbuild1:19382] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7fba58dc1a78]
+[jumaxbuild1:19387] [ 3] /usr/lib64/libc.so.6(abort+0x148)[0x7fb15b2afa78]
+[jumaxbuild1:19380] [ 3] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19381] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19386] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19382] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19387] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19385] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19383] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19384] [ 4] build/dfe-full/cavity2d(maxi_abort_and_dump_trace_if_error+0x93)[0x5f06f3]
+[jumaxbuild1:19380] [ 4] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19384] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19381] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19386] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19382] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19387] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19385] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19383] [ 5] build/dfe-full/cavity2d(max_load+0x93)[0x5c6633]
+[jumaxbuild1:19380] [ 5] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19381] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f88878a820b]
+[jumaxbuild1:19381] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19386] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fc536f3b20b]
+[jumaxbuild1:19386] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19382] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f3bb6e4e20b]
+[jumaxbuild1:19382] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19387] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fba59ee820b]
+[jumaxbuild1:19387] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19385] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fcc2220220b]
+[jumaxbuild1:19385] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19380] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fb15c3d620b]
+[jumaxbuild1:19380] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19383] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7fea713a720b]
+[jumaxbuild1:19383] [ 7] build/dfe-full/cavity2d[0x519b9c]
+[jumaxbuild1:19384] [ 6] /usr/lib64/libpthread.so.0(+0x620b)[0x7f0dab7d920b]
+[jumaxbuild1:19384] [ 7] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19382] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19387] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19384] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19380] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19385] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19381] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19386] [ 8] build/dfe-full/cavity2d(pCollide+0x5c)[0x51991c]
+[jumaxbuild1:19383] [ 8] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19381] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19387] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19382] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19384] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19386] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19380] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19385] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE29blockwiseBulkCollideAndStreamENS_5Box2DE+0xcbe)[0x4f3fbe]
+[jumaxbuild1:19383] [ 9] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19385] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19381] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19387] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19382] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19386] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19380] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19384] [10] build/dfe-full/cavity2d(_ZN3plb14BlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE16collideAndStreamENS_5Box2DE+0x1f8)[0x4f4848]
+[jumaxbuild1:19383] [10] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19382] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19386] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19384] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19385] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19381] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19383] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19387] [11] build/dfe-full/cavity2d(_ZN3plb19MultiBlockLattice2DIdNS_11descriptors14D2Q9DescriptorEE30collideAndStreamImplementationEv+0xb5)[0x4f22d5]
+[jumaxbuild1:19380] [11] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19386] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19384] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19385] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19380] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19387] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19381] [12] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19382] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f3bb5d12555]
+[jumaxbuild1:19382] build/dfe-full/cavity2d(main+0x82e)[0x4d793e]
+[jumaxbuild1:19383] [12] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fea7026b555]
+[jumaxbuild1:19383] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fb15b29a555]
+[jumaxbuild1:19380] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fba58dac555]
+[jumaxbuild1:19387] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f888676c555]
+[jumaxbuild1:19381] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fcc210c6555]
+[jumaxbuild1:19385] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fc535dff555]
+[jumaxbuild1:19386] [13] /usr/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f0daa69d555]
+[jumaxbuild1:19384] [13] [13] build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19380] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19387] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19381] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19385] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19386] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19382] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19384] *** End of error message ***
+build/dfe-full/cavity2d[0x4d8f1f]
+[jumaxbuild1:19383] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node jumaxbuild1 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------

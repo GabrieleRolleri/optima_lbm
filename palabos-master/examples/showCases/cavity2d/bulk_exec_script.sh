@@ -6,7 +6,7 @@ declare -a array=("cpu" "cpu-buff" "dfe" "dfe-full")
 
 for mode in "${array[@]}"
 do
-	for ((run=0; run < 10; run++)); 
+	for ((run=0; run < 1; run++)); 
 	do
 		for threads in 1 2 4 8;
 			do
