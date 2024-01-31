@@ -1,3 +1,10 @@
+# optima2
+Performance analysis of LBM implementation on FPGA cards.
+Thi is an implmentation of PALABOS lattice D2Q9 on FPGA card within the OPTIMA JU co-founded project Grant Agreement n. 955739
+The implementation was done on JUMAX platform available at JULICH with Maxeller compiler (now GROQ) 
+
+
+
 # Palabos
 
 [Palabos](https://palabos.unige.ch/) is an open-source CFD solver based on the [lattice Boltzmann method](https://palabos.unige.ch/lattice-boltzmann/what-lattice-boltzmann/). 
