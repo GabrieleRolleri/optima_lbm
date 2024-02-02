@@ -7,7 +7,7 @@ Cavity2D was the chosen example for performance analysis, the respective directo
 On the other hand most changes had to be done on the Palabos classes responsible for the actual LBM simulation, these are found in palabos-master/src/atomicBlock/blockLattice2D.hh and its respective header file.
 
 ## Running the simulation
-### CPU & CPU-Full
+### CPU-Prof & CPU-BUff
 The two CPU branches can be built and run following Palabos instructions (i.e. with CMake). 
 The building process for DFE assisted execution is a little more involved.
 ### DFE & DFE-Full
